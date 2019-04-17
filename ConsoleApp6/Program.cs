@@ -10,6 +10,7 @@ namespace ConsoleApp6
     {
         static void Main(string[] args)
         {
+            Program a = new Program();
         }
     }
 }
