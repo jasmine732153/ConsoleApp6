@@ -21,6 +21,17 @@ namespace ConsoleApp6
 
             int wordArrayLength = words.Length;
             int[] wordsLength = new int[wordArrayLength];
+            int x = 0;
+
+            foreach( var word in words){ }
+            string currentword = words[0];
+            string nextword;
+            string longestWord = currentword;
+            for (int y = 0;y<words.Length-1;y++)
+            {
+                currentword = words[y];
+                nextword = words[y + 1];
+            }
         }
         }
     }
