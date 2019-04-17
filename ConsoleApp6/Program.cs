@@ -11,6 +11,17 @@ namespace ConsoleApp6
         static void Main(string[] args)
         {
             Program a = new Program();
+            Console.WriteLine("the longest word is:");
+            Console.WriteLine(a.MyFunctionA("Ada Lovelace wrote the firs algorithm designed for processing by an Analytical Engine "));
+        }
+        public  MyFunctionA(string input)
+
+        {
+            string[] words = input.Split('');
+
+            int wordArrayLength = words.Length;
+            int[] wordsLength = new int[wordArrayLength];
+        }
         }
     }
 }
